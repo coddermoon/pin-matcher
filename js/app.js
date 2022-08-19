@@ -16,3 +16,12 @@ const randomPin = ()=>{
     
     
 }
+
+// set pin number in input fileld
+
+document.getElementById('genarate').addEventListener('click',()=>{
+
+    const pin = randomPin()
+
+   document.getElementById('display-pin').value = pin
+})
